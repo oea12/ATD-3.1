@@ -559,6 +559,23 @@ header,
     box-shadow: 1px 0px 33px rgba(106, 63, 138, 0.48);
 }
 
+@media (max-width:767px) {
+    .how-work-tab ul li a,
+    .pg-main-cs-11 {
+        font-weight: 700;
+        text-align: center;
+        line-height: 17px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        word-break: keep-all;
+        width: 100%;
+        font-size: 59px;
+    }
+}
+
 .how-work-tab ul li a,
 .pg-main-cs-11 {
     font-size: 1.1rem;
@@ -7195,9 +7212,10 @@ h6 a,
 
 @media screen and (max-width:767px) {
     .how-work-tab ul li:hover {
-        width: 73%;
+        width: 40%;
         box-shadow: 1px 0px 20px rgba(106, 63, 138, 0.7);
         border-radius: 39px;
+        height: 110px;
     }
 }
 
