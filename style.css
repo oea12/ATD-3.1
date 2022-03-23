@@ -126,6 +126,7 @@ header,
 .navbar > .container-fluid .navbar-brand,
 .pg-main-cs-11 {
     margin-left: 0;
+    width: 180px;
 }
 
 .navbar-brand > img,
@@ -133,6 +134,7 @@ header,
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     max-width: fit-content;
+    width: 73%;
 }
 
 .navbar-fixed-top .navbar-brand > img,
@@ -231,10 +233,10 @@ header,
 .slider p,
 .pg-main-cs-11 {
     color: #fff;
-    font-size: 23px;
+    font-size: 18px;
     margin: 0 0 35px;
     padding-right: 28%;
-    line-height: 40px;
+    line-height: 27px;
 }
 
 .slider-thumb,
@@ -1369,6 +1371,13 @@ header,
     .video,
     .pg-main-cs-11 {
         min-height: 938px;
+    }
+}
+
+@media (max-width:767px) {
+    .offset-md-4,
+    .pg-main-cs-11 {
+        padding-top: 0px !important;
     }
 }
 
@@ -7273,6 +7282,11 @@ h6 a,
 
 @media screen and (max-width:299px) {
     .nej {
+    }
+}
+
+@media (max-width:767px) {
+    JNUNN {
     }
 }
 }

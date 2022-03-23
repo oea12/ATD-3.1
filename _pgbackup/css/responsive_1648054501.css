@@ -89,7 +89,7 @@
     }
 
     .slider h1 {
-        font-size: 26px;
+        font-size: 48px;
     }
 
     .awesome-feature-details p {
@@ -171,8 +171,6 @@
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
         margin-left: 15px;
-        padding-top: 0px;
-        padding-bottom: 0px;
     }
 
     .navbar .container {
@@ -191,15 +189,12 @@
         flex-direction: row-reverse;
         justify-content: space-around;
         align-items: center;
-        height: 85px;
     }
 
     .navbar-toggler {
         background-color: transparent;
         border: 0;
         outline: 0;
-        text-align: right;
-        direction: rtl;
     }
 
     .navbar-toggler:focus {
@@ -230,10 +225,6 @@
     .navbar-toggler {
         -webkit-transition: all 0.2s ease 0s;
         transition: all 0.2s ease 0s;
-        direction: rtl;
-        justify-content: center;
-        padding-left: 34px;
-        padding-right: 8px;
     }
 
     .navbar-fixed-top .navbar-toggler {
@@ -241,11 +232,10 @@
         margin-right: 0;
         margin-top: 0;
         padding: 13px 10px;
-        direction: rtl;
     }
 
     .navbar-fixed-top .navbar-brand > img {
-        width: 8rem;
+        width: 9rem;
     }
 
     .navbar-nav {
@@ -374,8 +364,7 @@
 
     .slider p {
         padding-right: 0;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 15px;
     }
 
     .single-address {
@@ -387,7 +376,7 @@
     }
 
     .slider h1 {
-        font-size: 20px;
+        font-size: 32px;
     }
 
     .hero-text p.he-p {
