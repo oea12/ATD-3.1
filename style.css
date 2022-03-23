@@ -7026,8 +7026,7 @@ h6 a,
     background: #e6e6e6;
     border-radius: 40px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: auto;
     transform: translate(-50%, -50%);
     z-index: 955;
     padding: 40px;
@@ -7036,6 +7035,7 @@ h6 a,
     overflow: hidden;
     box-shadow: 20px 0px 135px 848rem rgba(0, 0, 0, 0.48) , 0px 0px 21px 2px rgba(35, 35, 35, 0.3);
     background-color: #ffffff;
+    left: 50%;
 }
 
 #popUpBox2,
@@ -7043,10 +7043,9 @@ h6 a,
     width: 90%;
     background: #e6e6e6;
     border-radius: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: auto;
+    left: auto;
     z-index: 955;
     padding: 40px;
     text-align: center;
@@ -7054,6 +7053,8 @@ h6 a,
     overflow: hidden;
     box-shadow: 20px 0px 135px 848rem rgba(0, 0, 0, 0.48) , 0px 0px 21px 2px rgba(35, 35, 35, 0.3);
     background-color: #ffffff;
+    bottom: auto;
+    right: auto;
 }
 
 #popUpBox3,
@@ -7299,5 +7300,13 @@ h6 a,
 .uss {
     padding-bottom: 0px;
     max-height: 100%;
+}
+
+.ososos {
+    padding-bottom: 71px !important;
+}
+
+.osoos {
+    padding-bottom: 52px;
 }
 }
