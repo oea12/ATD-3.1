@@ -746,7 +746,7 @@ textarea:focus {
 }
 
 .pt-130 {
-    padding-bottom: 61px;
+    padding-bottom: 0px !important;
 }
 
 .pt-140 {
@@ -910,9 +910,7 @@ textarea:focus {
 }
 
 .pb-125 {
-    padding-bottom: 7rem;
     min-height: 45rem;
-    margin-bottom: 2rem;
 }
 
 .pb-130 {

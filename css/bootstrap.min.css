@@ -414,13 +414,12 @@ button {
 [type=submit]:not(:disabled),
 button:not(:disabled) {
     cursor: pointer;
-    padding-top: 5px;
-    margin-bottom: 26px;
     border-color: rgba(0, 0, 0, 0);
-    margin-top: 20px;
-    padding-bottom: 0px;
     height: 123px;
-    width: 149px;
+    width: 109px;
+    margin: 20px;
+    padding: 0px;
+    display: block;
 }
 
 ::-moz-focus-inner {
@@ -12387,7 +12386,6 @@ button:hover {
 }
 
 .how-work-area {
-    height: 1058px;
 }
 
 @media (max-width:479px) {
@@ -12399,7 +12397,7 @@ button:hover {
 
 .skdj {
     text-align: center;
-    max-height: 2608px;
+    height: 85%;
 }
 
 ,

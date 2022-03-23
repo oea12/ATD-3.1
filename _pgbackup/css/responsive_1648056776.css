@@ -445,13 +445,6 @@
     }
 }
 
-@media (min-width:768px) {
-    .how-work-tab ul {
-        display: inline-flex;
-        width: 33% !important;
-    }
-}
-
 .how-work-tab ul {
     display: inline-flex;
     width: 100%;
