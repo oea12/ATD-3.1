@@ -439,18 +439,6 @@
 }
 
 @media (max-width:479px) {
-    .how-work-tab ul {
-        display: none !important;
-        width: 100%;
-    }
-}
-
-.how-work-tab ul {
-    display: inline-flex;
-    width: 100%;
-}
-
-@media (max-width:479px) {
 }
 
 .how-work-tab ul li {

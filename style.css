@@ -7289,4 +7289,10 @@ h6 a,
     JNUNN {
     }
 }
+
+@media (max-width:479px) {
+    .shows {
+        display: block !important;
+    }
+}
 }

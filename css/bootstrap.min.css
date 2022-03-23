@@ -3907,6 +3907,12 @@ fieldset:disabled .btn {
     }
 }
 
+@media (max-width:479px) {
+    .fade:not(.show) {
+        opacity: 1 !important;
+    }
+}
+
 .fade:not(.show) {
     opacity: 0;
 }
@@ -4499,6 +4505,12 @@ fieldset:disabled .btn {
 .nav-fill .nav-item .nav-link,
 .nav-justified .nav-item .nav-link {
     width: 100%;
+}
+
+@media (max-width:479px) {
+    .tab-content>.tab-pane {
+        display: block;
+    }
 }
 
 .tab-content>.tab-pane {
@@ -12376,6 +12388,13 @@ button:hover {
 
 .how-work-area {
     height: 1058px;
+}
+
+@media (max-width:479px) {
+    .skdj {
+        text-align: center;
+        max-height: 100% !important;
+    }
 }
 
 .skdj {
