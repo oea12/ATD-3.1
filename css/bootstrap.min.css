@@ -415,11 +415,11 @@ button {
 button:not(:disabled) {
     cursor: pointer;
     border-color: rgba(0, 0, 0, 0);
-    height: 123px;
-    width: 109px;
+    height: 141px;
     margin: 20px;
     padding: 0px;
     display: block;
+    width: 22%;
 }
 
 ::-moz-focus-inner {
@@ -12284,15 +12284,37 @@ fieldset:disabled .btn {
 }
 
 /* Modal Content */
+@media (max-width:767px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        width: 67% !important;
+        border-radius: 20px;
+        border: 1px solid rgba(136, 136, 136, 0.18);
+        box-shadow: 0px 0px 21px 2px rgba(35, 35, 35, 0.3);
+        padding: 12px;
+        height: 63% !important;
+        position: relative;
+        top: -50px;
+        overflow: scroll;
+        visibility: visible;
+        vertical-align: baseline;
+        justify-content: center;
+        text-align: center;
+        align-items: baseline;
+        align-self: baseline;
+    }
+}
+
 .modal-content {
     background-color: #fefefe;
     margin: auto;
-    width: 80%;
+    width: 50%;
     border-radius: 20px;
     border: 1px solid rgba(136, 136, 136, 0.18);
     box-shadow: 0px 0px 21px 2px rgba(35, 35, 35, 0.3);
     padding: 15px;
-    height: 77%;
+    height: 50%;
     position: relative;
     top: -50px;
     overflow: scroll;
