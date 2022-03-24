@@ -506,7 +506,7 @@ header,
 .pg-main-cs-11 {
     font-size: 1.3rem;
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: none;
     margin: 0 0 15px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -7214,7 +7214,7 @@ h6 a,
     margin-right: auto;
     margin-bottom: auto;
     position: absolute;
-    transform: translateY(-288px);
+    transform: translateY(-39px);
 }
 
 @media (max-width:479px) {
@@ -7234,6 +7234,7 @@ h6 a,
         margin-right: auto;
         margin-bottom: auto;
         position: absolute;
+        transform: translateY(-228px) !important;
     }
 }
 
@@ -7274,7 +7275,7 @@ h6 a,
     margin-right: auto;
     margin-bottom: auto;
     position: absolute;
-    transform: translateY(-346px);
+    transform: translateY(44px);
 }
 
 @media (max-width:479px) {
@@ -7294,6 +7295,7 @@ h6 a,
         margin-right: auto;
         margin-bottom: auto;
         position: absolute;
+        transform: translateY(-161px);
     }
 }
 
@@ -7353,6 +7355,7 @@ h6 a,
         margin-right: auto;
         margin-bottom: auto;
         position: absolute;
+        transform: translateY(191px);
     }
 }
 
