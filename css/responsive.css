@@ -3,7 +3,7 @@
     .container {
         max-width: 85%;
         --bs-gutter-x: 15px;
-        display: flex;
+        display: block;
     }
 
     .container-fluid {
@@ -24,8 +24,9 @@
 /* Laptop Device :1366px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
     .mr-ri-l {
-        margin-left: 12px;
         margin-bottom: 30px;
+        width: 50%;
+        margin-top: 63px;
     }
 
     .banner-image.hand {
@@ -473,7 +474,7 @@
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
-        width: 450px;
+        width: 753px;
         height: 100%;
     }
 

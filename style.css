@@ -197,10 +197,10 @@ header,
 /* ============= 3. SLIDER AREA ============= */
 .hero-area,
 .pg-main-cs-11 {
-    background-image: url(img/slider/1.png);
+    background-image: url('assets/images/ATDback.webp');
     background-size: cover;
     background-position: center center;
-    height: 61rem;
+    height: 47rem;
     z-index: 1;
     position: relative;
     color: #fff;
@@ -215,12 +215,12 @@ header,
 .pg-main-cs-11 {
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
     display: inline-flex;
     z-index: 8;
-    padding: 19% 1rem 1%;
+    height: 100%;
+    width: 100%;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 8%;
 }
 
 .slider h1,
@@ -334,13 +334,19 @@ header,
 /* ============= 4. SERVICE AREA ============= */
 .service-area,
 .pg-main-cs-11 {
+    display: block;
+    padding: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
 }
 
 .single-service,
 .pg-main-cs-11 {
-    padding: 110px 25px 105px;
+    padding: 47px;
     -webkit-transition: .3s;
     transition: .3s;
+    border-radius: 27px;
 }
 
 .single-service h2,
@@ -940,10 +946,12 @@ header,
     box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
-    padding: 125px 70px;
+    padding: 125px 70px !important;
     float: left;
     margin-bottom: 60px;
-    min-width: 50%;
+    min-width: 100%;
+    max-height: 826px;
+    margin-top: -11px;
 }
 
 .form-control,
@@ -1321,15 +1329,14 @@ header,
 @media screen and (max-width:1399px) {
     .col-lg-4,
     .pg-main-cs-11 {
-        width: 33%;
+        width: 49%;
     }
 }
 
 @media screen and (max-width:991px) {
     .col-lg-4,
     .pg-main-cs-11 {
-        width: 35% !important;
-        height: 14rem;
+        width: 90% !important;
     }
 }
 
@@ -1383,7 +1390,6 @@ header,
 
 .offset-md-4,
 .pg-main-cs-11 {
-    padding-top: 31px;
 }
 
 @media screen and (max-width:479px) {
@@ -4658,16 +4664,13 @@ img.mfp-img,
 
     .col-lg-4,
     .pg-main-cs-11 {
-        width: 69%;
-        height: 12rem;
+        width: 89%;
     }
 }
 
 @media (max-width:767px) {
     .col-lg-4,
     .pg-main-cs-11 {
-        width: 69%;
-        height: 12rem;
     }
 }
 
@@ -4675,7 +4678,7 @@ img.mfp-img,
     .col-lg-4,
     .pg-main-cs-11 {
         width: 69% !important;
-        height: 12rem;
+        height: 100%;
     }
 }
 
@@ -7617,7 +7620,7 @@ h6 a,
 
 @media screen and (max-width:767px) {
     .slider {
-        margin-top: 26%;
+        margin-top: 0%;
     }
 }
 
@@ -7695,7 +7698,7 @@ h6 a,
 }
 
 .ososos {
-    padding-bottom: 71px !important;
+    padding-bottom: 198px !important;
 }
 
 .osoos {
@@ -7726,5 +7729,77 @@ h6 a,
     position: relative;
     top: -33px;
     font-size: 182%;
+}
+
+.service-content2 {
+    width: 40%;
+}
+
+.service-content3 {
+    width: 39%;
+}
+
+.lo {
+    list-style-type: lower-greek;
+    display: list-item;
+}
+
+@media screen and (max-width:991px) {
+    FIX {
+        width: 81% !important;
+    }
+
+    .FIX {
+        flex-wrap: wrap;
+    }
+
+    .FIX2 {
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        flex-wrap: wrap;
+        padding: 20PX;
+    }
+}
+
+@media screen and (max-width:899px) {
+    .service-icon {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .service-area {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:899px) {
+    .FI2 {
+    }
+}
+
+.jk {
+    display: list-item;
+    width: 46%;
+    padding-right: 10px;
+}
+
+.jk {
+    display: list-item;
+    width: 50%;
+}
+
+.jk {
+    display: list-item;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.jk {
+    display: list-item;
+    width: 48%;
 }
 }

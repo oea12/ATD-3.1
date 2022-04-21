@@ -415,7 +415,7 @@ button {
 button:not(:disabled) {
     cursor: pointer;
     border-color: rgba(0, 0, 0, 0);
-    height: 141px;
+    height: 141px ;
     margin: 20px;
     padding: 0px;
     display: block;
@@ -684,7 +684,7 @@ progress {
     .container,
     .container-md,
     .container-sm {
-        max-width: 720px;
+        max-width: 730px;
     }
 }
 
@@ -719,16 +719,15 @@ progress {
 }
 
 .row {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 1.5rem !important;
     --bs-gutter-y: 0;
-    display: inline-flex;
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
-    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 100% !important;
     height: 100%;
+    display: inline-flex;
 }
 
 .row>* {
@@ -1239,7 +1238,6 @@ progress {
         flex: 0 0 auto;
         width: 45%;
         position: relative;
-        height: 101%;
     }
 
     .col-md-7 {
@@ -1249,7 +1247,6 @@ progress {
 
     .col-md-8 {
         flex: 0 0 auto;
-        width: 101.66666667%;
     }
 
     .col-md-9 {
@@ -1442,7 +1439,7 @@ progress {
 
     .col-lg-4 {
         flex: 0 0 auto;
-        width: 27.333333330000002%;
+        width: 35.33333333%;
     }
 
     .col-lg-5 {
@@ -2265,7 +2262,7 @@ progress {
 .form-control {
     display: block;
     width: 100%;
-    padding: .375rem .75rem;
+    padding: .375rem 0.75rem .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
