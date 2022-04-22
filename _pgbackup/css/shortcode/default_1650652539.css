@@ -39,10 +39,12 @@ body {
     font-style: normal;
     font-size: 14px;
     position: relative;
+    overflow-x: hidden;
 }
 
 img {
-    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
 }
 
 a {
@@ -59,7 +61,13 @@ a,
 button,
 input {
     outline: medium none;
-    color: #383838;
+    color: rgba(56, 56, 56, 0.49);
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-style: none;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 2rem;
 }
 
 h1,
@@ -86,13 +94,12 @@ h6 a {
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 33px;
     font-weight: 700;
-    margin-top: 148px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 33px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
@@ -102,7 +109,8 @@ h3 {
 }
 
 h4 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    padding-top: 30px;
 }
 
 h5 {
@@ -115,22 +123,24 @@ h6 {
 }
 
 ul {
-    margin: 0px;
-    padding: 0px;
+    display: inline-flex;
+    width: 100%;
 }
 
 li {
-    display: grid;
+    display: inline-flex;
     justify-content: center;
+    list-style-position: outside;
+    list-style-image: url('../../img/SVG/Recurso%2094.svg');
 }
 
 p {
     color: #999999;
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 30px;
-    margin: 0 0 15px;
+    line-height: 24px;
+    margin: 0 0 23px;
 }
 
 hr {
@@ -259,6 +269,7 @@ label {
 
 .text-center {
     text-align: center;
+    width: 100%;
 }
 
 /* ============= 5. Input Css ============= */
@@ -365,7 +376,7 @@ textarea:focus {
 }
 
 .mt-45 {
-    margin-top: 45px;
+    margin-top: 0px;
 }
 
 .mt-50 {
@@ -401,7 +412,9 @@ textarea:focus {
 }
 
 .mt-90 {
-    margin-top: 90px;
+    margin-top: 98px;
+    height: 100%;
+    padding-top: 6px;
 }
 
 .mt-95 {
@@ -737,8 +750,7 @@ textarea:focus {
 }
 
 .pt-130 {
-    padding-bottom: 61px;
-    margin-top: 0px;
+    padding-bottom: 0px !important;
 }
 
 .pt-140 {
@@ -892,8 +904,9 @@ textarea:focus {
 }
 
 .pb-115 {
-    padding-bottom: 115px;
-    padding-top: 85px;
+    padding-bottom: 143px;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .pb-120 {
@@ -901,11 +914,12 @@ textarea:focus {
 }
 
 .pb-125 {
-    padding-bottom: 125px;
+    min-height: 45rem;
 }
 
 .pb-130 {
-    padding-bottom: 251px;
+    padding-top: 0px;
+    margin-top: -121px;
 }
 
 .pb-140 {
@@ -1251,6 +1265,7 @@ textarea:focus {
 }
 
 .bg-6 {
+    justify-content: center;
 }
 
 .bg-7 {

@@ -7826,8 +7826,8 @@ h6 a,
 
 .li1 {
     display: list-item;
-    width: 50%;
-    padding-right: 10px;
+    width: 48%;
+    padding-right: 16px;
 }
 
 @media screen and (max-width:991px) {
@@ -7942,11 +7942,14 @@ h6 a,
 
 .CONTACR {
     font-size: 26px;
-    line-height: 44px;
+    line-height: 62px;
     text-align: left;
-    text-transform: none;
     padding-top: 54px;
     padding-right: 14px;
+    color: #734490;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
 }
 
 @media screen and (max-width:991px) {
@@ -7992,7 +7995,7 @@ h6 a,
 }
 
 .HJ {
-    padding-left: 82px;
+    padding-left: 92px;
 }
 
 align-content: {

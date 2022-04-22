@@ -130,7 +130,7 @@ ul {
 li {
     display: inline-flex;
     justify-content: center;
-    list-style-position: inside;
+    list-style-position: outside;
     list-style-image: url('../../img/SVG/Recurso%2094.svg');
 }
 
