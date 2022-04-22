@@ -7895,7 +7895,6 @@ h6 a,
     flex-wrap: wrap;
     display: flex;
     padding-top: 20px;
-    height: 100%;
 }
 
 @media screen and (max-width:991px) {
@@ -7905,8 +7904,7 @@ h6 a,
 }
 
 .ILUS {
-    width: 53%;
-    height: 85%;
+    width: 73%;
 }
 
 @media screen and (max-width:991px) {
@@ -7917,7 +7915,7 @@ h6 a,
 }
 
 .TEST {
-    font-size: 19px;
+    font-size: 24px;
     line-height: 33px;
     text-align: left;
     text-transform: none;
@@ -7964,7 +7962,7 @@ h6 a,
 
 .ROF {
     display: block;
-    margin-top: 0px;
+    margin-top: -63px;
 }
 
 @media screen and (max-width:991px) {
@@ -7989,24 +7987,5 @@ h6 a,
         height: 302px;
         width: 834px;
     }
-}
-
-.HJ {
-    padding-left: 82px;
-}
-
-align-content: {
-}
-
-@media screen and (max-width:991px) {
-    .HJ {
-        padding-left: 0px;
-    }
-}
-
-.contact.form {
-    padding: 0px !important;
-    height: 100% !important;
-    margin: 0px !important;
 }
 }

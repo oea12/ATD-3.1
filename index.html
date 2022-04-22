@@ -9,6 +9,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico"/>
         <!-- Place favicon.ico in the root directory -->
         <!-- all css here -->
+        <link href="css/theme.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" href="css/font-awesome.min.css"/>
         <link rel="stylesheet" href="css/icofont.css"/>
@@ -35,9 +36,12 @@
                 <div id="ctn-preloader" class="ctn-preloader">
                     <div class="animation-preloader">
                         <div class="spinner"></div>
-                        <div class="txt-loading"><span data-text-preloader="A" class="letters-loading">
-                            A </span><span data-text-preloader="T" class="letters-loading">
-                            T </span><span data-text-preloader="D" class="letters-loading">
+                        <div class="txt-loading">
+                            <span data-text-preloader="A" class="letters-loading">
+                            A </span>
+                            <span data-text-preloader="T" class="letters-loading">
+                            T </span>
+                            <span data-text-preloader="D" class="letters-loading">
                             D </span>
                         </div>
                     </div>
@@ -50,18 +54,31 @@
             <nav id="header-top" class="navbar navbar-expand-md">
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                        </button><a class="navbar-brand" href="index.html"><img src="Logo.svg" alt="logo" class="img-responsive sjndij" width="93%"/></a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="Logo.svg" alt="logo" class="img-responsive sjndij" width="93%"/></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="nav nav-pills navbar-nav navbar-right" style="color: #ffffff;">
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#bgndVideo2" target="_pg_blank">INICIO</a>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#bgndVideo2" target="_pg_blank">INICIO</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#features" target="_pg_blank">SOLUCIONES</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#features" target="_pg_blank">SOLUCIONES</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#about1" target="_pg_blank">NOSOTROS</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about1" target="_pg_blank">NOSOTROS</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link download-btn" href="#contact-area" target="_pg_blank">CONTACTO</a>
+                            <li class="nav-item">
+                                <a class="nav-link download-btn" href="#contact-area" target="_pg_blank">CONTACTO</a>
+                            </li>
+                            <li class="nav-item" style="padding-left: 24px; padding-right: 7px; align-items: stretch; display: inline-flex; height: 23px;">
+                                <a class="nav-link" href="index.html" target="_pg_blank" style="padding: 4px;">ES</a>
+                                <p style="font-size: 28px; text-align: center;">/</p>
+                                <a class="nav-link" href="EN.html" target="_pg_blank" style="padding: 4px;">EN</a>
                             </li>
                         </ul>
                     </div>
@@ -78,14 +95,15 @@
                             <div class="hero-text mr-ri-l">
                                 <h1>Potencializa las relaciones con tus clientes a través de datos inteligentes</h1>
                                 <p>
-Evoluciona tu negocio con tecnología Open Finance de agregación y categorización de datos.
-.</p><a href="#contact-area" class="hero-btn">SABER MÁS</a>
+Evoluciona tu negocio con tecnología Open Finance de agregación y categorización de datos.</p>
+                                <a href="#contact-area" class="hero-btn">SABER MÁS</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="features" style="position: relative; top: -76px;"></div>
         <div id="about1"></div>
         <section class="service-area gray-bg">
             <div class="container " style="height: 100%; padding-top: 0px; padding-left: 0px; padding-right: 0px; width: 90%;">
@@ -99,7 +117,7 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                 <h2>Agregación Bancaria</h2>
                                 <p>Conecta con las cuentas bancarias de tus clientes y obtén datos financieros importantes.</p>
                             </div>
-                            <div class="service-content">
+                            <div class="service-content HJ">
                                 <ul class="ul1">
                                     <li type="circle" class="li1">Movimientos Bancarios</li>
                                     <li type="square" class="li1">Datos de tarjetas.</li>
@@ -120,7 +138,7 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                 <h2>Agregación no bancaria</h2>
                                 <p>Amplía el perfil de tus clientes para tomar   decisiones confiables<br/><br/></p>
                             </div>
-                            <div class="service-content">
+                            <div class="service-content HJ">
                                 <ul class="ul1">
                                     <li type="circle" class="li1">Fuentes estatales</li>
                                     <li type="square" class="li1">Telcos</li>
@@ -145,7 +163,7 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                 <h2>Categorización</h2>
                                 <p>Identificamos y clasificamos los movimientos de los clientes y obtenemos una mejor visión de su perfil financiero. Al conocer al cliente generamos insights para colocar ofertas de su interes con cross.selling, seleccionadas con Machine Learning</p>
                             </div>
-                            <div class="service-content">
+                            <div class="service-content HJ">
                                 <ul class="ul1">
                                     <li type="circle" class="li1">Cientos de categorias</li>
                                     <li type="square" class="li1">Fuentes de ingresos </li>
@@ -166,7 +184,7 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                 <h2>Soluciones tecnológicas</h2>
                                 <p>Nuestras soluciones son sencillas de integrar en tu proceso de desarrollo y nos adaptamos a las necesidades específicas de tu negocio, así como: <br/><br/><br/></p>
                             </div>
-                            <div class="service-content">
+                            <div class="service-content HJ">
                                 <ul class="ul1">
                                     <li type="circle" class="li1">Personal Finance Management</li>
                                     <li type="square" class="li1">Modelos & Scores</li>
@@ -179,7 +197,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
             <div class="container" style="display: block; align-items: center; justify-content: center; text-align: center;">
                 <div class="row">
                     <div class="col-12">
-                        <div class="subcribe-form text-center"><a href="#contact-area" class="hero-btn">Más información</a>
+                        <div class="subcribe-form text-center">
+                            <a href="#contact-area" class="hero-btn">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -191,7 +210,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                     <div class="col-md-6">
                         <div class="about-content">
                             <h2>Nosotros</h2>
-                            <p>Somos tu proveedor mexicano en tecnología de agregación y categorización de datos con la mayor seguridad y confiabilidad en el mercado.<br/> <br/>Contribuyendo a la toma decisiones confiables, soportadas con tecnologías de análisis inteligente en tiempo real, ayudando a las empresas a analizar el perfil financiero y no financiero de sus clientes; desarrollar ofertas personalizadas y medir riesgos.<br/> <br/>Construimos relaciones más sólidas y  duraderas entre clientes y empresas. </p><a href="#contact-area" class="hero-btn">SABER MÁS</a>
+                            <p>Somos tu proveedor mexicano en tecnología de agregación y categorización de datos con la mayor seguridad y confiabilidad en el mercado.<br/> <br/>Contribuyendo a la toma decisiones confiables, soportadas con tecnologías de análisis inteligente en tiempo real, ayudando a las empresas a analizar el perfil financiero y no financiero de sus clientes; desarrollar ofertas personalizadas y medir riesgos.<br/> <br/>Construimos relaciones más sólidas y  duraderas entre clientes y empresas. </p>
+                            <a href="#contact-area" class="hero-btn">SABER MÁS</a>
                         </div>
                     </div>
                     <div class="col-md-6" style="align-items: center; justify-content: center; flex-wrap: wrap;">
@@ -218,7 +238,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                         <div class="overlay">
                                             <div class="hover-content">
                                                 <ul>
-                                                    <li><a href="https://www.linkedin.com/in/miguel-espinosa-rescala-a8517566/" target="_pg_blank"><i class="icofont icofont-social-linkedin" aria-hidden="true"></i></a>
+                                                    <li>
+                                                        <a href="https://www.linkedin.com/in/miguel-espinosa-rescala-a8517566/" target="_pg_blank"><i class="icofont icofont-social-linkedin" aria-hidden="true"></i></a>
                                                     </li>
                                                 </ul>
                                                 <p>Tecnología y Negocios</p>
@@ -229,7 +250,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                     </div>
                                     <!-- /.image-box -->
                                     <div class="text">
-                                        <h6>Miguel Ángel Espinosa Rescala</h6><span>Director General</span>
+                                        <h6>Miguel Ángel Espinosa Rescala</h6>
+                                        <span>Director General</span>
                                     </div>
                                     <!-- /.text -->
                                 </div>
@@ -244,7 +266,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                         <div class="overlay">
                                             <div class="hover-content">
                                                 <ul>
-                                                    <li><a href="https://www.linkedin.com/in/victor-gonzalez-herrera/" target="_pg_blank"><i class="icofont icofont-social-linkedin" aria-hidden="true"></i></a>
+                                                    <li>
+                                                        <a href="https://www.linkedin.com/in/victor-gonzalez-herrera/" target="_pg_blank"><i class="icofont icofont-social-linkedin" aria-hidden="true"></i></a>
                                                     </li>
                                                 </ul>
                                                 <p>Disrupción tecnológica</p>
@@ -255,7 +278,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                     </div>
                                     <!-- /.image-box -->
                                     <div class="text">
-                                        <h6>Víctor Gonzalez</h6><span>Director de Tecnología</span>
+                                        <h6>Víctor Gonzalez</h6>
+                                        <span>Director de Tecnología</span>
                                     </div>
                                     <!-- /.text -->
                                 </div>
@@ -269,7 +293,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                         <div class="overlay">
                                             <div class="hover-content">
                                                 <ul>
-                                                    <li><a href="https://www.linkedin.com/in/cassandracazares/" target="_pg_blank"><i class="icofont icofont-social-linkedin" aria-hidden="true"></i></a>
+                                                    <li>
+                                                        <a href="https://www.linkedin.com/in/cassandracazares/" target="_pg_blank"><i class="icofont icofont-social-linkedin" aria-hidden="true"></i></a>
                                                     </li>
                                                 </ul>
                                                 <p>Inclusión financiera</p>
@@ -280,7 +305,8 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                                     </div>
                                     <!-- /.image-box -->
                                     <div class="text">
-                                        <h6>Cassandra Cázares</h6><span>Gerente de Marketing</span>
+                                        <h6>Cassandra Cázares</h6>
+                                        <span>Gerente de Marketing</span>
                                     </div>
                                     <!-- /.text -->
                                 </div>
@@ -356,7 +382,7 @@ Evoluciona tu negocio con tecnología Open Finance de agregación y categorizaci
                 </div>
             </div>
         </div>
-        <section id="features" class="feature-area gray-bg pt-128 pb-70">
+        <section id="features" class="feature-area gray-bg pt-128 pb-70" style="padding-top: 60px;">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -427,7 +453,8 @@ pueden incrementar tu negocio.</p>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="subcribe-form text-center"><a href="#contact-area" class="hero-btn">Más información</a>
+                        <div class="subcribe-form text-center">
+                            <a href="#contact-area" class="hero-btn">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -449,7 +476,8 @@ pueden incrementar tu negocio.</p>
                             <buttom id="myBtn" href="#" class="hero-btn">Saber más</buttom>
                             <div id="myModal" class="modal">
                                 <!-- Modal content -->
-                                <div id="popup" class="modal-content"><span class="close">&times;</span>
+                                <div id="popup" class="modal-content">
+                                    <span class="close">&times;</span>
                                     <h2>Nuestro Socio</h2>
                                     <p class="ereo">UNNAX es una compañía  líder en soluciones de Open Finance con licencia de Entidad de Dinero Electrónico emitida por el Banco de España y regulada en la Unión Europea. Fundada por emprendedores del Online Lending, somos el único proveedor de Open Finance regulado en este sector y entendemos tus retos mejor que nadie. Dado a esta sociedad somos el único proveedor que ofrece regulación europea.<br/> <br/>
                                     Para más información, puedes visitar su sitio web  www.unnax.com </p>
@@ -519,20 +547,17 @@ pueden optimizar tu negocio.</p>
         <div class="contact-area pt-130">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" style="border-radius: 32px; padding: 51px; margin-bottom: 30px; box-shadow: -3px -2px 63px 7px rgba(0, 0, 0, 0.10);">
+                        <h2>Contacto</h2>
                         <div class="contact-wrap">
                             <!-- Contact Form -->
                             <!-- Begin Mailchimp Signup Form -->
                             <div class="google-map">
-                                <h2>Contacto</h2>
                                 <p class="CONTACR">Transforma tu negocio y desarrolla positivamente la relación con tus clientes. <br/> <br/> 
 El poder de los datos financieros y no financieros inteligentes a tu alcance.</p>
                             </div>
-                            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css"/>
-                            <style type="text/css">#mc_embed_signup { background: #fff; clear: left; font: 14px Helvetica,Arial,sans-serif; width: 600px; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */</style>
-                            <div id="mc_embed_signup" style="width: 100%;">
-                                <form id="contact-form" class="form contact-form" action="https://whizthemes.com/mail-php/other/mail.php" target="_pg_blank">
+                            <div id="mc_embed_signup" style="width: 97%; height: 100%; padding: 0px;">
+                                <form id="contact-form" class="contact contact-form form" action="https://whizthemes.com/mail-php/other/mail.php" target="_pg_blank" style="box-shadow: 0 0; background-color: #ffffff; padding: 0px;">
                                     <div class="ROF row">
                                         <div class="form-group col-12">
                                             <input type="text" name="con_name" class="form-control" id="first-name" placeholder="Nombre" required="required"/>
@@ -598,15 +623,20 @@ El poder de los datos financieros y no financieros inteligentes a tu alcance.</p
                 <!-- Contact address left -->
                 <div class="" style="width: 100%; height: 100%; align-items: center; border-bottom: 1px solid #ffffff; flex-wrap: wrap;">
                     <ul class="footer">
-                        <li class="x"><a class="y" aria-current="page" href="#bgndVideo2">INICIO</a>
+                        <li class="x">
+                            <a class="y" aria-current="page" href="#bgndVideo2">INICIO</a>
                         </li>
-                        <li class="x"><a class="y" href="#features">SOLUCIONES</a>
+                        <li class="x">
+                            <a class="y" href="#features">SOLUCIONES</a>
                         </li>
-                        <li class="x"><a class="y" href="#about1">NOSOTROS</a>
+                        <li class="x">
+                            <a class="y" href="#about1">NOSOTROS</a>
                         </li>
-                        <li class="x"><a class="y" href="Aviso.html">AVISO DE PRIVACIDAD</a>
+                        <li class="x">
+                            <a class="y" href="Aviso.html">AVISO DE PRIVACIDAD</a>
                         </li>
-                        <li class="x"><a class="y" href="Term.html">TÉRMINOS Y CONDICIONES</a>
+                        <li class="x">
+                            <a class="y" href="Term.html">TÉRMINOS Y CONDICIONES</a>
                         </li>
                     </ul>
                 </div>
@@ -618,7 +648,8 @@ El poder de los datos financieros y no financieros inteligentes a tu alcance.</p
                             <!-- Copyright social -->
                             <div class="contact-social text-center pt-70 pb-35">
                                 <ul>
-                                    <li><a target="blank" href="https://www.linkedin.com/company/accionamos-tus-datos/about/"><i class="icofont icofont-social-linkedin"></i></a>
+                                    <li>
+                                        <a target="blank" href="https://www.linkedin.com/company/accionamos-tus-datos/about/"><i class="icofont icofont-social-linkedin"></i></a>
                                     </li>
                                 </ul>
                             </div>

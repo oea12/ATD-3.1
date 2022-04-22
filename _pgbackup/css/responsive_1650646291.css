@@ -345,8 +345,7 @@
 
     .contact-form {
         float: none;
-        padding: 6px !important;
-        margin-bottom: -49px;
+        padding: 22px !important;
     }
 
     .single-address .media-left {
