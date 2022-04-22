@@ -7941,7 +7941,6 @@ h6 a,
     text-align: left;
     text-transform: none;
     padding-top: 54px;
-    padding-right: 14px;
 }
 
 @media screen and (max-width:991px) {
@@ -7976,13 +7975,6 @@ h6 a,
         padding-top: 0px;
         padding-bottom: 0px;
         margin-bottom: 0PX;
-    }
-}
-
-@media screen and (min-width:1400px) {
-    .modal-content {
-        height: 302px;
-        width: 834px;
     }
 }
 }
