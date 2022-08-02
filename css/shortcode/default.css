@@ -102,7 +102,7 @@ h2 {
     font-size: 33px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 h3 {
