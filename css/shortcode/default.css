@@ -94,8 +94,10 @@ h6 a {
 }
 
 h1 {
-    font-size: 33px;
-    font-weight: 700;
+    font-size: 67px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 89px;
 }
 
 h2 {
@@ -138,9 +140,9 @@ li {
 p {
     color: #999999;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 32px;
     margin: 0 0 23px;
 }
 

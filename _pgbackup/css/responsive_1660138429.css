@@ -1,8 +1,9 @@
 /* Addition media query */
 @media (min-width: 1200px){
     .container {
-        max-width: 1170px;
+        max-width: 85%;
         --bs-gutter-x: 15px;
+        display: block;
     }
 
     .container-fluid {
@@ -23,7 +24,9 @@
 /* Laptop Device :1366px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
     .mr-ri-l {
-        margin-left: 60px;
+        margin-bottom: 30px;
+        width: 50%;
+        margin-top: 63px;
     }
 
     .banner-image.hand {
@@ -79,6 +82,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 20px 5px;
+        color: #ffffff;
     }
 
     .navbar-nav {
@@ -86,7 +90,7 @@
     }
 
     .slider h1 {
-        font-size: 48px;
+        font-size: 26px;
     }
 
     .awesome-feature-details p {
@@ -151,6 +155,7 @@
 
     .navbar-expand-md .navbar-nav li a.download-btn {
         padding: 8px 20px;
+        color: #ffffff;
     }
 
     .contact-map-size {
@@ -167,6 +172,8 @@
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
         margin-left: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .navbar .container {
@@ -181,15 +188,19 @@
 
     .navbar-header {
         display: flex;
-        justify-content: space-between;
         width: 100%;
         flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        height: 85px;
     }
 
     .navbar-toggler {
         background-color: transparent;
         border: 0;
         outline: 0;
+        text-align: right;
+        direction: rtl;
     }
 
     .navbar-toggler:focus {
@@ -220,6 +231,10 @@
     .navbar-toggler {
         -webkit-transition: all 0.2s ease 0s;
         transition: all 0.2s ease 0s;
+        direction: rtl;
+        justify-content: center;
+        padding-left: 34px;
+        padding-right: 8px;
     }
 
     .navbar-fixed-top .navbar-toggler {
@@ -227,10 +242,11 @@
         margin-right: 0;
         margin-top: 0;
         padding: 13px 10px;
+        direction: rtl;
     }
 
     .navbar-fixed-top .navbar-brand > img {
-        width: 9rem;
+        width: 8rem;
     }
 
     .navbar-nav {
@@ -280,10 +296,13 @@
 
     .how-work-area {
         padding-bottom: 92px;
+        padding-left: 0px;
+        height: 100%;
     }
 
     .section-heading {
         width: 100%;
+        display: block;
     }
 
     .single-fact.text-center {
@@ -326,8 +345,8 @@
 
     .contact-form {
         float: none;
-        padding: 125px 35px;
-        width: 100%;
+        padding: 6px !important;
+        margin-bottom: -49px;
     }
 
     .single-address .media-left {
@@ -348,7 +367,7 @@
     }
 
     .awesome-feature-details p {
-        padding: 0 28px;
+        padding: 0 0px;
     }
 
     .bnr-sm-none {
@@ -357,7 +376,8 @@
 
     .slider p {
         padding-right: 0;
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .single-address {
@@ -369,7 +389,7 @@
     }
 
     .slider h1 {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .hero-text p.he-p {
@@ -399,10 +419,7 @@
     }
 
     .how-work-tab ul {
-        display: flex;
-    }
-
-    .how-work-tab ul li {
+        display: inline-flex;
         width: 100%;
     }
 
@@ -423,10 +440,45 @@
     }
 }
 
+@media (max-width:479px) {
+    .how-work-tab ul {
+        display: none !important;
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .how-work-tab ul {
+        display: inline-flex;
+        width: 33% !important;
+    }
+}
+
+.how-work-tab ul {
+    display: inline-flex;
+    width: 100%;
+}
+
+@media (max-width:479px) {
+}
+
+.how-work-tab ul li {
+    width: 73%;
+    border-radius: 34px;
+    height: 98px;
+    padding: 4px 27px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 33px;
+}
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
-        width: 450px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
     }
 
     .single-address .media-left {

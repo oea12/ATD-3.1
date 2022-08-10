@@ -25,7 +25,7 @@
 @media (min-width: 1200px) and (max-width: 1500px) {
     .mr-ri-l {
         margin-bottom: 30px;
-        width: 50%;
+        width: 102%;
         margin-top: 63px;
     }
 
@@ -390,6 +390,7 @@
 
     .slider h1 {
         font-size: 20px;
+        line-height: 42px;
     }
 
     .hero-text p.he-p {
